@@ -69,18 +69,18 @@
         <form method="POST" action="enviar_form.php">
           <div class="row mb-3">
             <div class="col-md-4">
+              <label for="uf" class="form-label">UF:</label>
+              <select class="form-select" id="uf" name="uf" required>
+                <option value="">Selecione a UF</option>
+                <option value="BA">BA</option>
+                <option value="SE">SE</option>
+                <option value="AL">AL</option>
+              </select>
+               </div>
+            <div class="col-md-4">
               <label for="localidade" class="form-label">Localidade:</label>
               <input type="text" class="form-control" id="localidade" name="localidade" required>
             </div>
-           <div class="col-md-4">
-            <label for="uf" class="form-label">UF:</label>
-            <select class="form-select" id="uf" name="uf" required>
-              <option value="">Selecione a UF</option>
-              <option value="BA">BA</option>
-              <option value="SE">SE</option>
-              <option value="AL">AL</option>
-            </select>
-             </div>
             <div class="col-md-4">
               <label for="circuito" class="form-label">Circuito:</label>
               <input type="text" class="form-control" id="circuito" name="circuito" required>
